@@ -1,0 +1,22 @@
+# eucm intrinsic:
+calib: [3.2653439658314977e+02, 3.2659249806052622e+02,5.5827178703013510e+02, 5.6030346412520692e+02,6.5368569619123884e-01, 1.0699217548076405e+00]
+
+#rotation vector and translate vector:
+rvecs: [[-0.01] , [-0.064], [0.26]] 
+tvecs: [[-0.087], [0.033], [-0.097]]
+
+#remap intrinsic
+#[fx,fy,cx,cy,baseline(m)]
+rect: [ 3.6892000000000002e+02,1.8446000000000001e+02,6.3950000000000000e+02,  1.1350000000000000e+02,0.09 ]
+
+#remove occlusion step
+#step1 > step2
+step_1: 20
+step_2: 10
+
+batch_1: 25
+batch_2: 10
+
+#threshold(m),usually 1 > 2 
+threshold_1: 0.2
+threshold_2: 0.1

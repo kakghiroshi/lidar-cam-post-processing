@@ -1,0 +1,27 @@
+# distortion_parameters:
+k1: -3.5708572719568576e-01
+k2: 1.5389645762562049e-01
+p1: -3.6745942911327984e-04
+p2: 4.2660326065275124e-04
+k3: -3.4828216207804713e-02
+# projection_parameters:
+fx: 7.5500474271171936e+02
+fy: 7.5528015156352978e+02
+cx: 4.8902083527966153e+02
+cy: 7.5605413592941056e+02
+# baseline(m):
+baseline: 0.065120423556773614 
+#rotation vector and translate vector:
+rvecs: [[0.0246329] , [0.00282466], [0.265761]] 
+tvecs: [[-0.0723709], [0.00350051], [-0.0723586]]
+
+#remove occlusion step
+#step1 > step2
+step_1: 25
+step_2: 10
+
+batch_1: 40
+batch_2: 10
+#threshold(m),usually 1 > 2 
+threshold_1: 0.2
+threshold_2: 0.1
